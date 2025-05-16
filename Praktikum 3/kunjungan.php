@@ -10,6 +10,7 @@ if(isset($_POST['submit'])){
     //membuat object dari class bukuTamu
     $bukuTamu = new BukuTamu();
 
+    
     //mengisi properti timestamp dengan fungsi
     //Y-m-d H:i:s artinya
     $bukuTamu->timestamp = date('Y-m-d H:i:s');
